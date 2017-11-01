@@ -2,7 +2,11 @@
 
 ## Getting Started
 
+<font color=red>
 注意！注意！注意！demo中的数据库存储一定要修改为mysql等持久化存储。
+
+demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
+</font>
 
 ###创建套件前
 
