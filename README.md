@@ -1,4 +1,3 @@
-运行前先看开发文档：http://ddtalk.github.io/dingTalkDoc/?spm=a3140.7785475.0.0.Q5c5r7
 
 ## Getting Started
 
@@ -10,7 +9,7 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 
 ###创建套件前
 
-登录到 http://console.d.aliyun.com/#/dingding/suite 创建套件（需要先注册开发者账号和钉钉企业才能创建套件）
+登录到 http://open-dev.dingtalk.com/#/index?_k=lluyaq 创建套件（需要先注册开发者账号和钉钉企业才能创建套件）
 
 ###创建套件
 3.填写套件信息
