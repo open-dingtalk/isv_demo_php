@@ -37,7 +37,7 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 
 10.修改微应用主页地址和PC主页地址
 
-  点击应用最右侧的`编辑`，编辑微应用信息，例如，工程部署在ip地址为123.x'x.71.118的主机上，端口为8080，那么微应用首页地址即为：`http://123.56.71.118:8080/index.php?corpid=$CORPID$`，PC版首页地址为：`http://123.56.71.118:8080/indexpc.php?corpid=$CORPID$`，点击保存。
+  点击应用最右侧的`编辑`，编辑微应用信息，例如，工程部署在ip地址为123.xxx.xxx.xxx的主机上，端口为8080，那么微应用首页地址即为：`http://123.xxx.xxx.xxx:8080/index.php?corpid=$CORPID$`，PC版首页地址为：`http://123.xxx.xxx.xxx:8080/indexpc.php?corpid=$CORPID$`，点击保存。
 
 11.打开钉钉，进入对应企业，即可看到微应用，点击进入
 
@@ -54,7 +54,6 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 4.微应用创建成功后，需要把微应用首页地址改为'根目录/index.php'
 
 5.打开钉钉，进入对应企业，即可看到微应用，点击进入
-
 
 ###本DEMO具体实现
 
