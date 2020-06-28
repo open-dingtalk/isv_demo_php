@@ -18,8 +18,8 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 - Token:  可以随意填写，填写完之后，打开工程的isv/config.php文件，把Token的值复制给TOKEN
 - 数据加密密钥：点击自动生成，然后打开工程的isv/config.php文件，把值复制给给ENCODING_AES_KEY
 - 应用ID:把应用ID的值复制给APPID
-- IP白名单:  调用钉钉API的合法IP列表(例如，工程部署在ip地址为123.56.71.118的主机上，那就填写"123.56.71.118")
-- 回调URL:   url为`工程地址/receive.php`(例如，工程将部署在ip地址为123.56.71.118的主机上，端口为8080，那么我的回调URL即为：`http://123.56.71.118:8080/receive.php`，假如你有域名的话，也可以把IP地址换成域名)
+- IP白名单:  调用钉钉API的合法IP列表(例如，工程部署在ip地址为123.xxx.xxx.xxx的主机上，那就填写"123.xxx.xxx.xxx")
+- 回调URL:   url为`工程地址/receive.php`(例如，工程将部署在ip地址为123.xxx.xxx.xxx的主机上，端口为8080，那么我的回调URL即为：`http://123.xxx.xxx.xxx:8080/receive.php`，假如你有域名的话，也可以把IP地址换成域名)
 
 4.配置PHP服务器环境（php+apache/nginx），安装mcrypt扩展（注意，一定要安装mcrypt扩展），保证apache服务根目录与可写权限（存储json数据）
 
@@ -37,7 +37,7 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 
 10.修改微应用主页地址和PC主页地址
 
-  点击应用最右侧的`编辑`，编辑微应用信息，例如，工程部署在ip地址为123.56.71.118的主机上，端口为8080，那么微应用首页地址即为：`http://123.56.71.118:8080/index.php?corpid=$CORPID$`，PC版首页地址为：`http://123.56.71.118:8080/indexpc.php?corpid=$CORPID$`，点击保存。
+  点击应用最右侧的`编辑`，编辑微应用信息，例如，工程部署在ip地址为123.x'x.71.118的主机上，端口为8080，那么微应用首页地址即为：`http://123.56.71.118:8080/index.php?corpid=$CORPID$`，PC版首页地址为：`http://123.56.71.118:8080/indexpc.php?corpid=$CORPID$`，点击保存。
 
 11.打开钉钉，进入对应企业，即可看到微应用，点击进入
 
@@ -48,7 +48,7 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 
 2.配置PHP服务器环境（php+apache/nginx），安装mcrypt扩展（注意，一定要安装mcrypt扩展）,保证apache服务根目录与可写权限（存储json数据）
 
-3.微应用主页地址填写。地址为`根目录/index.php`，(例如，工程部署在ip地址为123.56.71.118的主机上，端口为8080，那么微应用首页地址即为：`http://123.56.71.118:8080/index.php`，PC版首页地址为：`http://123.56.71.118:8080/indexpc.php`，假如你有域名的话，也可以把IP地址换成域名)
+3.微应用主页地址填写。地址为`根目录/index.php`，(例如，工程部署在ip地址为123.xxx.xxx.xxx的主机上，端口为8080，那么微应用首页地址即为：`http://123.xxx.xxx.xxx:8080/index.php`，PC版首页地址为：`http://123.xxx.xxx.xxx:8080/indexpc.php`，假如你有域名的话，也可以把IP地址换成域名)
   修改config.php中的CORPID，SECRET，AGENTID，其中CORPID，SECRET在微应用设置页面`https://oa.dingtalk.com/#/microApp/microAppSet`获取，AGENTID在创建微应用的时候可以获取
 
 4.微应用创建成功后，需要把微应用首页地址改为'根目录/index.php'
