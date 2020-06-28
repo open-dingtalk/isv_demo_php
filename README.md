@@ -60,12 +60,12 @@ demo部署后,一定要确认isv.log和filecache.php两个文件有写权限。
 
 1.URL回调流程
 
-请查看[文档](http://ddtalk.github.io/dingTalkDoc/#2-回调接口（分为五个回调类型）)
+请查看[文档](https://ding-doc.dingtalk.com/doc#/serverapi3/igq88i)
 
 2.jsapi权限验证配置流程
 
-请查看[文档](http://ddtalk.github.io/dingTalkDoc/#页面引入js文件)
+请查看[文档](https://ding-doc.dingtalk.com/doc#/dev/uwa7vs)
 
 3.免登流程
 
-请查看[文档](http://ddtalk.github.io/dingTalkDoc/#手机客户端微应用中调用免登)
+请查看[文档](https://ding-doc.dingtalk.com/doc#/dev/ep7bpq)
